@@ -7,6 +7,10 @@ btn.addEventListener('click', () => {
 });
 menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => menu.classList.remove('open')));
 
+// Labels for the slideshow buttons come from i18n.js so they follow the chosen language
+const uiLabel = (key, n) => window.I18N ? window.I18N.ui(key, n)
+  : ({ prev: 'Previous photo', next: 'Next photo', photo: 'Photo ' + n })[key];
+
 // Photos and cards: slideshow when there are several images, placeholder if none load
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 document.querySelectorAll('.photo, .card-img').forEach(box => {
@@ -32,7 +36,7 @@ document.querySelectorAll('.photo, .card-img').forEach(box => {
     dots = null;
     box.classList.toggle('js-slider', imgs.length > 1);
     if (imgs.length > 1) {
-      [['prev', 'Previous photo', '\u276E', -1], ['next', 'Next photo', '\u276F', 1]].forEach(([cls, label, txt, step]) => {
+      [['prev', uiLabel('prev'), '\u276E', -1], ['next', uiLabel('next'), '\u276F', 1]].forEach(([cls, label, txt, step]) => {
         const b = document.createElement('button');
         b.type = 'button'; b.className = 's-btn ' + cls; b.setAttribute('aria-label', label); b.textContent = txt;
         b.addEventListener('click', e => { e.preventDefault(); e.stopPropagation(); show(idx + step); start(); });
@@ -41,7 +45,7 @@ document.querySelectorAll('.photo, .card-img').forEach(box => {
       dots = document.createElement('div'); dots.className = 's-dots';
       imgs.forEach((_, k) => {
         const d = document.createElement('button');
-        d.type = 'button'; d.setAttribute('aria-label', 'Photo ' + (k + 1));
+        d.type = 'button'; d.setAttribute('aria-label', uiLabel('photo', k + 1));
         d.addEventListener('click', e => { e.stopPropagation(); show(k); start(); });
         dots.appendChild(d);
       });

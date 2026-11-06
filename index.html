@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,35 +7,41 @@
   <meta name="description" content="Sindh Digital Art Heritage: a STREAM project by Class 6A, GGHS Barrage Colony, Sukkur, documenting the vanishing traditional crafts of Sindh: pottery, embroidery and mirror work, and leather work.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Mulish:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Mulish:wght@400;600&family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header class="nav" id="top">
-  <a class="brand" href="#top">Sindh Digital Art Heritage</a>
+  <a class="brand" href="#top" data-i18n="brand">Sindh Digital Art Heritage</a>
   <button class="menu-btn" id="menuBtn" aria-label="Menu" aria-expanded="false">&#9776;</button>
   <nav id="menu">
-    <a href="#about">About</a>
-    <a href="#pottery">Pottery</a>
-    <a href="#embroidery">Embroidery</a>
-    <a href="#leather">Leather</a>
-    <a href="#more">More Arts</a>
-    <a href="#gallery">Gallery</a>
-    <a href="#team">Presenters</a>
-    <a href="#credits">Credits</a>
+    <a href="#about" data-i18n="nav.about">About</a>
+    <a href="#pottery" data-i18n="nav.pottery">Pottery</a>
+    <a href="#embroidery" data-i18n="nav.embroidery">Embroidery</a>
+    <a href="#leather" data-i18n="nav.leather">Leather</a>
+    <a href="#more" data-i18n="nav.more">More Arts</a>
+    <a href="#gallery" data-i18n="nav.gallery">Gallery</a>
+    <a href="#team" data-i18n="nav.team">Presenters</a>
+    <a href="#credits" data-i18n="nav.credits">Credits</a>
   </nav>
+  <!-- Language switcher: English / Urdu / Sindhi -->
+  <div class="lang" role="group" aria-label="Language">
+    <button type="button" data-lang="en" lang="en" aria-pressed="true">English</button>
+    <button type="button" data-lang="ur" lang="ur" aria-pressed="false">اردو</button>
+    <button type="button" data-lang="sd" lang="sd" aria-pressed="false">سنڌي</button>
+  </div>
 </header>
 
 <section class="hero">
   <div class="hero-pattern"></div>
   <div class="hero-text">
-    <p class="eyebrow">A STREAM Art Project</p>
-    <h1>Hands That Remember</h1>
-    <p class="lead">The crafts of ancient Sindh, thousands of years old, are slowly being forgotten. This is our effort to remember them.</p>
-    <a class="btn" href="#pottery">Begin the Journey</a>
+    <p class="eyebrow" data-i18n="hero.eyebrow">A STREAM Art Project</p>
+    <h1 data-i18n="hero.title">Hands That Remember</h1>
+    <p class="lead" data-i18n="hero.lead">The crafts of ancient Sindh, thousands of years old, are slowly being forgotten. This is our effort to remember them.</p>
+    <a class="btn" href="#pottery" data-i18n="hero.btn">Begin the Journey</a>
   </div>
-  <div class="scroll-hint">scroll &darr;</div>
+  <div class="scroll-hint" data-i18n="hero.scroll">scroll &darr;</div>
 </section>
 
 <!-- LOGOS + VISION -->
@@ -43,43 +49,43 @@
   <div class="logos">
     <figure class="logo">
       <img src="images/logos/stream-logo.png" alt="Sindh STREAM Journey logo" onerror="this.parentNode.classList.add('nologo');this.remove()">
-      <figcaption>Sindh STREAM Journey</figcaption>
+      <figcaption data-i18n="logo.stream">Sindh STREAM Journey</figcaption>
     </figure>
     <figure class="logo">
       <img src="images/logos/ilm-studio-logo.png" alt="ILM Studio logo" onerror="this.parentNode.classList.add('nologo');this.remove()">
-      <figcaption>ILM Studio</figcaption>
+      <figcaption data-i18n="logo.ilm">ILM Studio</figcaption>
     </figure>
     <figure class="logo">
       <img src="images/logos/govt-sindh-logo.png" alt="Government of Sindh logo" onerror="this.parentNode.classList.add('nologo');this.remove()">
-      <figcaption>Government of Sindh</figcaption>
+      <figcaption data-i18n="logo.govt">Government of Sindh</figcaption>
     </figure>
   </div>
-  <p class="vision">Vision of the Honourable Minister for Education and Literacy, Government of Sindh, and under the stewardship of the worthy Secretary, School Education and Literacy Department (SELD).</p>
+  <p class="vision" data-i18n="vision">Vision of the Honourable Minister for Education and Literacy, Government of Sindh, and under the stewardship of the worthy Secretary, School Education and Literacy Department (SELD).</p>
 </section>
 
 <section class="intro reveal" id="about">
   <div class="ornament">&#10043; &#10043; &#10043;</div>
-  <h2>A Land of Makers</h2>
-  <p>Sindh is home to one of the oldest civilizations in the world. More than four thousand years ago, the people of Mohenjo-daro were already shaping clay, weaving cloth and working with hides. Those skills passed from mother to daughter and father to son, village to village, until today.</p>
-  <p>Now machines, cheap imitations and changing lifestyles are pushing these crafts to the edge. Many artisans are old, and few young people are learning. This project shares the images and stories of three crafts so they are not lost.</p>
+  <h2 data-i18n="intro.h">A Land of Makers</h2>
+  <p data-i18n="intro.p1">Sindh is home to one of the oldest civilizations in the world. More than four thousand years ago, the people of Mohenjo-daro were already shaping clay, weaving cloth and working with hides. Those skills passed from mother to daughter and father to son, village to village, until today.</p>
+  <p data-i18n="intro.p2">Now machines, cheap imitations and changing lifestyles are pushing these crafts to the edge. Many artisans are old, and few young people are learning. This project shares the images and stories of three crafts so they are not lost.</p>
 </section>
 
 <!-- POTTERY -->
 <section class="craft reveal" id="pottery">
   <div class="craft-text">
     <span class="num">01</span>
-    <h2>Pottery</h2>
-    <p class="urdu-sub">Kumbhar &middot; The Potter's Art</p>
-    <p>Pottery is among the oldest arts of Sindh. Painted and wheel-made vessels were found at Mohenjo-daro and other Indus Valley sites, dating back over 4,500 years.</p>
-    <p>In later centuries, Sindh became known for glazed blue pottery and tile work, seen in places such as Hala and in the tiles that decorate the monuments of Thatta. Cobalt blue and turquoise glazes on white clay are its signature.</p>
-    <p class="fading"><strong>Why it is fading:</strong> Plastic and steel have replaced clay pots in most homes, and fewer families keep the potter's wheel turning.</p>
+    <h2 data-i18n="pottery.h">Pottery</h2>
+    <p class="urdu-sub" data-i18n="pottery.sub">Kumbhar &middot; The Potter's Art</p>
+    <p data-i18n="pottery.p1">Pottery is among the oldest arts of Sindh. Painted and wheel-made vessels were found at Mohenjo-daro and other Indus Valley sites, dating back over 4,500 years.</p>
+    <p data-i18n="pottery.p2">In later centuries, Sindh became known for glazed blue pottery and tile work, seen in places such as Hala and in the tiles that decorate the monuments of Thatta. Cobalt blue and turquoise glazes on white clay are its signature.</p>
+    <p class="fading" data-i18n="pottery.fade"><strong>Why it is fading:</strong> Plastic and steel have replaced clay pots in most homes, and fewer families keep the potter's wheel turning.</p>
   </div>
   <div class="craft-img">
     <figure class="photo" data-slider data-hint="images/pottery-1.jpg">
       <img src="images/pottery-1.jpg" alt="A potter shaping a clay pot on the wheel" data-caption="A potter shaping clay on the wheel" loading="lazy">
       <img src="images/pottery-2.jpg" alt="Large glazed jars in a museum display case" data-caption="Large glazed jars in a museum display" loading="lazy">
       <img src="images/pottery-3.jpg" alt="Decorated pieces of ancient broken pottery" data-caption="Decorated pottery fragments" loading="lazy">
-      <figcaption><span class="cap-text">A potter shaping clay on the wheel</span> <a class="cr" href="#credits">[credit]</a></figcaption>
+      <figcaption><span class="cap-text">A potter shaping clay on the wheel</span> <a class="cr" href="#credits" data-i18n="cr">[credit]</a></figcaption>
     </figure>
   </div>
 </section>
@@ -90,18 +96,18 @@
 <section class="craft flip reveal" id="embroidery">
   <div class="craft-text">
     <span class="num">02</span>
-    <h2>Embroidery &amp; Mirror Work</h2>
-    <p class="urdu-sub">Sui Dhaga &middot; Bharat &middot; Abhla</p>
-    <p>Sindhi embroidery is a language told in thread. Women stitch dense geometric and floral patterns on dresses, cholis, cushions, camel decorations and wedding dowry pieces. Small round mirrors, called <em>abhla</em>, are stitched in to catch the light and, it is believed, to ward off the evil eye.</p>
-    <p>Each community, from Tharparkar to the Indus plains, has its own stitches, colors and motifs. A single piece can take weeks or even months of patient work.</p>
-    <p class="fading"><strong>Why it is fading:</strong> Machine embroidery is faster and cheaper, and young women often have little time or encouragement to learn the hand stitches.</p>
+    <h2 data-i18n="embroidery.h">Embroidery &amp; Mirror Work</h2>
+    <p class="urdu-sub" data-i18n="embroidery.sub">Sui Dhaga &middot; Bharat &middot; Abhla</p>
+    <p data-i18n="embroidery.p1">Sindhi embroidery is a language told in thread. Women stitch dense geometric and floral patterns on dresses, cholis, cushions, camel decorations and wedding dowry pieces. Small round mirrors, called <em>abhla</em>, are stitched in to catch the light and, it is believed, to ward off the evil eye.</p>
+    <p data-i18n="embroidery.p2">Each community, from Tharparkar to the Indus plains, has its own stitches, colors and motifs. A single piece can take weeks or even months of patient work.</p>
+    <p class="fading" data-i18n="embroidery.fade"><strong>Why it is fading:</strong> Machine embroidery is faster and cheaper, and young women often have little time or encouragement to learn the hand stitches.</p>
   </div>
   <div class="craft-img">
     <figure class="photo" data-slider data-hint="images/embroidery-1.jpg">
       <img src="images/embroidery-1.jpg" alt="Sindhi mirror-work embroidery with shell tassels" data-caption="Sindhi mirror-work embroidery with shell tassels" loading="lazy">
       <img src="images/embroidery-2.jpg" alt="Embroidered Sindhi caps (topi)" data-caption="Embroidered Sindhi caps (topi)" loading="lazy">
       <img src="images/embroidery-3.jpg" alt="Bags decorated with mirror work and embroidery" data-caption="Bags decorated with mirror work" loading="lazy">
-      <figcaption><span class="cap-text">Sindhi mirror-work embroidery with shell tassels</span> <a class="cr" href="#credits">[credit]</a></figcaption>
+      <figcaption><span class="cap-text">Sindhi mirror-work embroidery with shell tassels</span> <a class="cr" href="#credits" data-i18n="cr">[credit]</a></figcaption>
     </figure>
   </div>
 </section>
@@ -112,16 +118,16 @@
 <section class="craft reveal" id="leather">
   <div class="craft-text">
     <span class="num">03</span>
-    <h2>Leather Work</h2>
-    <p class="urdu-sub">Chamra &middot; Khussa &middot; Hand-stitched Hide</p>
-    <p>Leather craft has served Sindh's farmers, herders and travelers for generations. Artisans cure and cut hides by hand to make embroidered footwear, belts, bags, saddlery and camel gear for desert journeys.</p>
-    <p>Fine pieces are decorated with hand stitching, colored thread and small cut patterns. Each pair of shoes is shaped and sewn by hand, not by a machine line.</p>
-    <p class="fading"><strong>Why it is fading:</strong> Factory-made shoes and synthetic leather are cheaper, and the craft is often seen as hard work with little reward.</p>
+    <h2 data-i18n="leather.h">Leather Work</h2>
+    <p class="urdu-sub" data-i18n="leather.sub">Chamra &middot; Khussa &middot; Hand-stitched Hide</p>
+    <p data-i18n="leather.p1">Leather craft has served Sindh's farmers, herders and travelers for generations. Artisans cure and cut hides by hand to make embroidered footwear, belts, bags, saddlery and camel gear for desert journeys.</p>
+    <p data-i18n="leather.p2">Fine pieces are decorated with hand stitching, colored thread and small cut patterns. Each pair of shoes is shaped and sewn by hand, not by a machine line.</p>
+    <p class="fading" data-i18n="leather.fade"><strong>Why it is fading:</strong> Factory-made shoes and synthetic leather are cheaper, and the craft is often seen as hard work with little reward.</p>
   </div>
   <div class="craft-img">
     <figure class="photo" data-hint="images/leather-1.jpg">
       <img src="images/leather-1.jpg" alt="Handmade Sindhi leather work" loading="lazy">
-      <figcaption>Hand-stitched leather</figcaption>
+      <figcaption data-i18n="leather.cap">Hand-stitched leather</figcaption>
     </figure>
   </div>
 </section>
@@ -131,115 +137,115 @@
 <!-- MORE CRAFTS -->
 <section class="more reveal" id="more">
   <div class="ornament">&#10043; &#10043; &#10043;</div>
-  <h2>More Arts of Sindh</h2>
-  <p class="sub">Many other crafts of this land are also growing quiet</p>
+  <h2 data-i18n="more.h">More Arts of Sindh</h2>
+  <p class="sub" data-i18n="more.sub">Many other crafts of this land are also growing quiet</p>
   <div class="cards">
 
     <article class="card">
       <div class="card-img" data-slider data-hint="images/art-ajrak.jpg"><img src="images/art-ajrak.jpg" alt="Ajrak block printing" loading="lazy"><img src="images/art-ajrak-2.jpg" alt="A man wearing an Ajrak vest and turban" loading="lazy"></div>
       <div class="card-body">
-        <h3>Ajrak</h3>
-        <p class="tag">Block-printed shawl</p>
-        <p>A shawl printed with carved wooden stamps in deep indigo and madder red. Natural and mineral dyes are used, and the printing is believed to go back to Indus Valley times. Ajrak is gifted as a mark of honor in Sindh.</p>
+        <h3 data-i18n="ajrak.h">Ajrak</h3>
+        <p class="tag" data-i18n="ajrak.tag">Block-printed shawl</p>
+        <p data-i18n="ajrak.p">A shawl printed with carved wooden stamps in deep indigo and madder red. Natural and mineral dyes are used, and the printing is believed to go back to Indus Valley times. Ajrak is gifted as a mark of honor in Sindh.</p>
       </div>
     </article>
 
     <article class="card">
       <div class="card-img" data-hint="images/art-ralli.jpg"><img src="images/art-ralli.jpg" alt="Ralli quilt" loading="lazy"></div>
       <div class="card-body">
-        <h3>Ralli Quilt</h3>
-        <p class="tag">Appliqu&eacute; &amp; patchwork</p>
-        <p>Women join many layers of cloth with simple running stitches into bright geometric quilts. The name comes from the Sindhi word for "to mix and connect". Rallis are also given to daughters as dowry.</p>
+        <h3 data-i18n="ralli.h">Ralli Quilt</h3>
+        <p class="tag" data-i18n="ralli.tag">Appliqu&eacute; &amp; patchwork</p>
+        <p data-i18n="ralli.p">Women join many layers of cloth with simple running stitches into bright geometric quilts. The name comes from the Sindhi word for "to mix and connect". Rallis are also given to daughters as dowry.</p>
       </div>
     </article>
 
     <article class="card">
       <div class="card-img" data-hint="images/art-bandhani.jpg"><img src="images/art-bandhani.jpg" alt="Bandhani tie-dye" loading="lazy"></div>
       <div class="card-body">
-        <h3>Bandhani</h3>
-        <p class="tag">Tie-dye</p>
-        <p>Tiny knots are tied in cloth before dyeing, leaving patterns of dots. It is believed to have started in Sindh, and the Lar region and Thar desert are famous for it.</p>
+        <h3 data-i18n="bandhani.h">Bandhani</h3>
+        <p class="tag" data-i18n="bandhani.tag">Tie-dye</p>
+        <p data-i18n="bandhani.p">Tiny knots are tied in cloth before dyeing, leaving patterns of dots. It is believed to have started in Sindh, and the Lar region and Thar desert are famous for it.</p>
       </div>
     </article>
 
     <article class="card">
       <div class="card-img" data-slider data-hint="images/art-weaving.jpg"><img src="images/art-weaving.jpg" alt="A weaver working at a hand loom" loading="lazy"><img src="images/art-weaving-2.jpg" alt="A hand-woven shawl with patterned borders" loading="lazy"><img src="images/art-weaving-3.jpg" alt="Woven textile with colourful patterns" loading="lazy"></div>
       <div class="card-body">
-        <h3>Hand Weaving</h3>
-        <p class="tag">Lungi, Sussi, Khes &amp; Khaddi</p>
-        <p>Sindh is known for silk and cotton lungis with gold-thread borders, striped sussi cloth from Hala, Hyderabad and Thatta, and warm khaddi shawls. Sussi was even exported to England in the 18th century.</p>
+        <h3 data-i18n="weaving.h">Hand Weaving</h3>
+        <p class="tag" data-i18n="weaving.tag">Lungi, Sussi, Khes &amp; Khaddi</p>
+        <p data-i18n="weaving.p">Sindh is known for silk and cotton lungis with gold-thread borders, striped sussi cloth from Hala, Hyderabad and Thatta, and warm khaddi shawls. Sussi was even exported to England in the 18th century.</p>
       </div>
     </article>
 
     <article class="card">
       <div class="card-img" data-hint="images/art-lacquer.jpg"><img src="images/art-lacquer.jpg" alt="Jandi lacquer work" loading="lazy"></div>
       <div class="card-body">
-        <h3>Lacquer Work</h3>
-        <p class="tag">Jandi jo kam</p>
-        <p>Wood from trees along the Indus is turned and coated with colored lacquer, then painted and varnished. It is used for the traditional swing (<em>pingho</em>), beds, chairs and lamps.</p>
+        <h3 data-i18n="lacquer.h">Lacquer Work</h3>
+        <p class="tag" data-i18n="lacquer.tag">Jandi jo kam</p>
+        <p data-i18n="lacquer.p">Wood from trees along the Indus is turned and coated with colored lacquer, then painted and varnished. It is used for the traditional swing (<em>pingho</em>), beds, chairs and lamps.</p>
       </div>
     </article>
 
     <article class="card">
       <div class="card-img" data-hint="images/art-woodcarving.jpg"><img src="images/art-woodcarving.jpg" alt="Sindhi wood carving" loading="lazy"></div>
       <div class="card-body">
-        <h3>Wood Carving</h3>
-        <p class="tag">Shikarpur</p>
-        <p>Carvers in Shikarpur cut detailed patterns into doors, windows and beds. Each carved panel is made by hand, with tools passed down in families.</p>
+        <h3 data-i18n="wood.h">Wood Carving</h3>
+        <p class="tag" data-i18n="wood.tag">Shikarpur</p>
+        <p data-i18n="wood.p">Carvers in Shikarpur cut detailed patterns into doors, windows and beds. Each carved panel is made by hand, with tools passed down in families.</p>
       </div>
     </article>
 
     <article class="card">
       <div class="card-img" data-hint="images/art-basketry.jpg"><img src="images/art-basketry.jpg" alt="Date palm basketry" loading="lazy"></div>
       <div class="card-body">
-        <h3>Palm Leaf Basketry</h3>
-        <p class="tag">Khairpur &amp; Sukkur</p>
-        <p>Women weave baskets, mats, hand fans and bread plates from date palm leaves. They are often decorated with colorful pom-poms, metallic thread and small mirrors.</p>
+        <h3 data-i18n="basketry.h">Palm Leaf Basketry</h3>
+        <p class="tag" data-i18n="basketry.tag">Khairpur &amp; Sukkur</p>
+        <p data-i18n="basketry.p">Women weave baskets, mats, hand fans and bread plates from date palm leaves. They are often decorated with colorful pom-poms, metallic thread and small mirrors.</p>
       </div>
     </article>
 
     <article class="card">
       <div class="card-img" data-hint="images/art-camel.jpg"><img src="images/art-camel.jpg" alt="Camel hair art" loading="lazy"></div>
       <div class="card-body">
-        <h3>Camel Barber Art</h3>
-        <p class="tag">Desert Sindh</p>
-        <p>Barbers clip a camel's hair into flowers and geometric patterns, sometimes adding henna or color. It is mostly done in the desert regions and is seen around festivals such as Eid.</p>
+        <h3 data-i18n="camel.h">Camel Barber Art</h3>
+        <p class="tag" data-i18n="camel.tag">Desert Sindh</p>
+        <p data-i18n="camel.p">Barbers clip a camel's hair into flowers and geometric patterns, sometimes adding henna or color. It is mostly done in the desert regions and is seen around festivals such as Eid.</p>
       </div>
     </article>
 
     <article class="card">
       <div class="card-img" data-hint="images/art-jewelry.jpg"><img src="images/art-jewelry.jpg" alt="Sindhi jewelry and bangles" loading="lazy"></div>
       <div class="card-body">
-        <h3>Jewelry &amp; Bangles</h3>
-        <p class="tag">Silver, gold, glass</p>
-        <p>Jewelry making in Sindh goes back to the Indus Valley. Necklaces, nose rings, anklets and headpieces are made in silver and gold, and Hyderabad is famous for its glass bangles.</p>
+        <h3 data-i18n="jewelry.h">Jewelry &amp; Bangles</h3>
+        <p class="tag" data-i18n="jewelry.tag">Silver, gold, glass</p>
+        <p data-i18n="jewelry.p">Jewelry making in Sindh goes back to the Indus Valley. Necklaces, nose rings, anklets and headpieces are made in silver and gold, and Hyderabad is famous for its glass bangles.</p>
       </div>
     </article>
 
     <article class="card">
       <div class="card-img" data-hint="images/art-beadwork.jpg"><img src="images/art-beadwork.jpg" alt="Sindhi beadwork" loading="lazy"></div>
       <div class="card-body">
-        <h3>Beadwork &amp; Sagi</h3>
-        <p class="tag">Motin jo kam</p>
-        <p>Beads, shells, mirrors and pom-poms are sewn into hair braids (<em>sagi</em>), bags, drawstrings and decorations for buses and rickshaws.</p>
+        <h3 data-i18n="beadwork.h">Beadwork &amp; Sagi</h3>
+        <p class="tag" data-i18n="beadwork.tag">Motin jo kam</p>
+        <p data-i18n="beadwork.p">Beads, shells, mirrors and pom-poms are sewn into hair braids (<em>sagi</em>), bags, drawstrings and decorations for buses and rickshaws.</p>
       </div>
     </article>
 
     <article class="card">
       <div class="card-img" data-hint="images/art-shell.jpg"><img src="images/art-shell.jpg" alt="Shell and ivory craft" loading="lazy"></div>
       <div class="card-body">
-        <h3>Shell &amp; Ivory Work</h3>
-        <p class="tag">Almost vanished</p>
-        <p>The ancient port of Banbhore had a very large ivory workshop. Ivory carving has almost died out, but shell bangles and shell products are still made in lower Sindh.</p>
+        <h3 data-i18n="shell.h">Shell &amp; Ivory Work</h3>
+        <p class="tag" data-i18n="shell.tag">Almost vanished</p>
+        <p data-i18n="shell.p">The ancient port of Banbhore had a very large ivory workshop. Ivory carving has almost died out, but shell bangles and shell products are still made in lower Sindh.</p>
       </div>
     </article>
 
     <article class="card">
       <div class="card-img" data-hint="images/art-bells.jpg"><img src="images/art-bells.jpg" alt="Copper bells" loading="lazy"></div>
       <div class="card-body">
-        <h3>Copper Bells</h3>
-        <p class="tag">Metal craft</p>
-        <p>Hand-made copper bells for cattle and other animals ring across rural Sindh. Larger bells can also be seen hanging at the shrines of saints.</p>
+        <h3 data-i18n="bells.h">Copper Bells</h3>
+        <p class="tag" data-i18n="bells.tag">Metal craft</p>
+        <p data-i18n="bells.p">Hand-made copper bells for cattle and other animals ring across rural Sindh. Larger bells can also be seen hanging at the shrines of saints.</p>
       </div>
     </article>
 
@@ -248,8 +254,8 @@
 
 <!-- GALLERY -->
 <section class="gallery reveal" id="gallery">
-  <h2>Gallery</h2>
-  <p class="sub">Moments from the workshops and the work</p>
+  <h2 data-i18n="gallery.h">Gallery</h2>
+  <p class="sub" data-i18n="gallery.sub">Moments from the workshops and the work</p>
   <!-- TIP: replace these with our own photos of students preparing their models and the school showcase -->
   <div class="grid">
     <figure class="photo" data-hint="images/gallery-1.jpg"><img src="images/gallery-1.jpg" alt="Embroidered Sindhi caps" loading="lazy"></figure>
@@ -261,7 +267,7 @@
     <figure class="photo" data-hint="images/gallery-7.jpg"><img src="images/gallery-7.jpg" alt="A weaver working at a hand loom" loading="lazy"></figure>
     <figure class="photo" data-hint="images/gallery-8.jpg"><img src="images/gallery-8.jpg" alt="Handmade Sindhi khussa shoes" loading="lazy"></figure>
   </div>
-  <p class="archive-title">From the archive</p>
+  <p class="archive-title" data-i18n="gallery.archive">From the archive</p>
   <figure class="photo archive" data-slider data-hint="images/archive-1.jpg">
     <img src="images/archive-1.jpg" alt="Ruins of Mohenjo-daro" data-caption="Mohenjo-daro, one of the world's oldest cities" loading="lazy">
     <img src="images/archive-2.jpg" alt="Carved sandstone tombs" data-caption="Carved sandstone tombs of Sindh" loading="lazy">
@@ -273,46 +279,47 @@
 <!-- TEAM -->
 <section class="team reveal" id="team">
   <div class="ornament">&#10043; &#10043; &#10043;</div>
-  <h2>Presented By</h2>
+  <h2 data-i18n="team.h">Presented By</h2>
   <div class="presenters">
-    <div class="person"><div class="avatar">M</div><h3>Mehak Lashari</h3><p>Presenter</p></div>
-    <div class="person"><div class="avatar">M</div><h3>Mehwish Badar</h3><p>Presenter</p></div>
+    <div class="person"><div class="avatar" data-i18n="team.avatar">M</div><h3 data-i18n="team.m1">Mehak Lashari</h3><p data-i18n="team.role">Presenter</p></div>
+    <div class="person"><div class="avatar" data-i18n="team.avatar">M</div><h3 data-i18n="team.m2">Mehwish Badar</h3><p data-i18n="team.role">Presenter</p></div>
   </div>
-  <p class="students-title">Students of Class 6A</p>
+  <p class="students-title" data-i18n="team.students">Students of Class 6A</p>
   <ul class="students" id="students">
-    <li>Dua Noor</li>
-    <li>Zainab</li>
-    <li>Malala</li>
+    <li data-i18n="st.dua">Dua Noor</li>
+    <li data-i18n="st.zainab">Zainab</li>
+    <li data-i18n="st.malala">Malala</li>
   </ul>
-  <p class="school"><strong>GGHS, Barrage Colony, Sukkur</strong><br>SEMIS CMS code: 4130072</p>
+  <p class="school" data-i18n="team.school"><strong>GGHS, Barrage Colony, Sukkur</strong><br>SEMIS CMS code: 4130072</p>
 </section>
 
 <!-- CREDITS -->
 <section class="credits reveal" id="credits">
-  <h2>Credits</h2>
-  <p class="sub">Images and information used in this project</p>
+  <h2 data-i18n="credits.h">Credits</h2>
+  <p class="sub" data-i18n="credits.sub">Images and information used in this project</p>
   <ul>
-    <li><strong>Photographs:</strong> The photos in this project were gathered from publicly available online sources and are used here for non-commercial, educational purposes. Credit belongs to the original photographers and creators.
+    <li data-i18n="credits.photos"><strong>Photographs:</strong> The photos in this project were gathered from publicly available online sources and are used here for non-commercial, educational purposes. Credit belongs to the original photographers and creators.
       <!-- TODO: add the exact source and licence of each photo here -->
     </li>
-    <li><strong>Information:</strong> general history from Wikipedia articles
+    <li data-i18n="credits.info"><strong>Information:</strong> general history from Wikipedia articles
       <a href="https://en.wikipedia.org/wiki/The_Crafts_of_Sindh" target="_blank" rel="noopener">The Crafts of Sindh</a>,
       <a href="https://en.wikipedia.org/wiki/Sindhi_embroidery" target="_blank" rel="noopener">Sindhi embroidery</a>,
       <a href="https://en.wikipedia.org/wiki/Khussa_(footwear)" target="_blank" rel="noopener">Khussa (footwear)</a>
       and <a href="https://en.wikipedia.org/wiki/Kashi_Kari" target="_blank" rel="noopener">Kashi Kari</a>;
       Dawn, "The ancient art of Kashigars".</li>
-    <li><strong>Fonts:</strong> Cormorant Garamond and Mulish, Google Fonts (Open Font License).</li>
+    <li data-i18n="credits.fonts"><strong>Fonts:</strong> Cormorant Garamond, Mulish, Noto Naskh Arabic and Noto Nastaliq Urdu, Google Fonts (Open Font License).</li>
   </ul>
-  <p class="small">Photos remain the property of their respective creators and are used under their stated licenses.</p>
+  <p class="small" data-i18n="credits.small">Photos remain the property of their respective creators and are used under their stated licenses.</p>
 </section>
 
 <footer>
-  <p>Sindh Digital Art Heritage &middot; A STREAM project by Class 6A, GGHS Barrage Colony, Sukkur</p>
-  <p class="small">&copy; 2026 Mehak Lashari, Mehwish Badar &amp; students</p>
-  <p class="small">In collaboration with ILM Studio and the School Education and Literacy Department, Government of Sindh</p>
+  <p data-i18n="footer.p">Sindh Digital Art Heritage &middot; A STREAM project by Class 6A, GGHS Barrage Colony, Sukkur</p>
+  <p class="small" data-i18n="footer.c">&copy; 2026 Mehak Lashari, Mehwish Badar &amp; students</p>
+  <p class="small" data-i18n="footer.collab">In collaboration with ILM Studio and the School Education and Literacy Department, Government of Sindh</p>
   <p class="tags">#SindhSTREAMJourney2026-27 &nbsp; #ScienceInSindh &nbsp; #ClassroomtoCosmos &nbsp; #TalentedSindh</p>
 </footer>
 
+<script src="i18n.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
