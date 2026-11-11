@@ -39,6 +39,7 @@
       'nav.embroidery': 'کڑھائی',
       'nav.leather': 'چمڑا',
       'nav.more': 'مزید ہنر',
+      'nav.models': 'ہمارے ماڈل',
       'nav.gallery': 'گیلری',
       'nav.team': 'پیش کنندگان',
       'nav.credits': 'حوالہ جات',
@@ -117,6 +118,15 @@
       'bells.tag': 'دھات کا ہنر',
       'bells.p': 'مویشیوں اور دوسرے جانوروں کے لیے ہاتھ سے بنی تانبے کی گھنٹیاں دیہی سندھ بھر میں بجتی ہیں۔ بڑی گھنٹیاں بزرگوں کے مزاروں پر بھی لٹکی نظر آتی ہیں۔',
 
+      'models.h': 'ہمارے ہاتھ سے بنے ماڈل',
+      'models.sub': 'گاؤں کی زندگی اور شہر کی زندگی، ہاتھ سے تیار کردہ',
+      'village.h': 'گاؤں کی زندگی',
+      'village.tag': 'دیہی سندھ',
+      'village.p': 'گھاس پھوس کی چھت والی جھونپڑیاں، گتے کی دیواریں، چارپائی، بیل گاڑی، ہینڈ پمپ، رنگین مٹی کے برتن اور پانی کے کنارے اونٹ اور گائے۔ ہمارا گاؤں اس ماحول کو دکھاتا ہے جہاں مٹی کے برتن جیسے روایتی ہنر آج بھی روزمرہ زندگی کا حصہ ہیں۔',
+      'city.h': 'شہر کی زندگی',
+      'city.tag': 'جدید سندھ',
+      'city.p': 'ہسپتال، بینک، اسکول، مسجد، اونچی رہائشی عمارت، ٹریفک سگنل، اور گاڑیوں اور ایک سجے ہوئے ٹرک سے بھری سڑکیں۔ شہر کی دکانیں کارخانوں کی بنی چیزوں سے بھری ہوتی ہیں، اور یہی ہاتھ کے ہنر کے آہستہ آہستہ ماند پڑنے کی ایک وجہ ہے۔',
+
       'gallery.h': 'گیلری',
       'gallery.sub': 'ورکشاپس اور کام کے یادگار لمحات',
       'gallery.archive': 'آرکائیو سے',
@@ -136,6 +146,7 @@
       'credits.sub': 'اس منصوبے میں استعمال ہونے والی تصاویر اور معلومات',
       'credits.photos': '<strong>تصاویر:</strong> اس منصوبے کی تصاویر عوامی طور پر دستیاب آن لائن ذرائع سے لی گئی ہیں اور غیر تجارتی، تعلیمی مقاصد کے لیے استعمال کی گئی ہیں۔ کریڈٹ اصل فوٹوگرافرز اور تخلیق کاروں کا ہے۔',
       'credits.info': "<strong>معلومات:</strong> عمومی تاریخ ویکی پیڈیا کے مضامین <a href='https://en.wikipedia.org/wiki/The_Crafts_of_Sindh' target='_blank' rel='noopener'><bdi>The Crafts of Sindh</bdi></a>، <a href='https://en.wikipedia.org/wiki/Sindhi_embroidery' target='_blank' rel='noopener'><bdi>Sindhi embroidery</bdi></a>، <a href='https://en.wikipedia.org/wiki/Khussa_(footwear)' target='_blank' rel='noopener'><bdi>Khussa (footwear)</bdi></a> اور <a href='https://en.wikipedia.org/wiki/Kashi_Kari' target='_blank' rel='noopener'><bdi>Kashi Kari</bdi></a> سے؛ ڈان، <bdi>“The ancient art of Kashigars”</bdi>۔",
+      'credits.models': '<strong>ماڈل:</strong> گاؤں کی زندگی اور شہر کی زندگی کے ماڈل اور ان کی تصاویر ہمارا اپنا اصل، ہاتھ سے بنا کام ہیں۔',
       'credits.fonts': '<strong>فونٹس:</strong> <bdi>Cormorant Garamond</bdi>، <bdi>Mulish</bdi>، <bdi>Noto Naskh Arabic</bdi> اور <bdi>Noto Nastaliq Urdu</bdi>، گوگل فونٹس (اوپن فونٹ لائسنس)۔',
       'credits.small': 'تصاویر اپنے اپنے تخلیق کاروں کی ملکیت رہتی ہیں اور ان کے بیان کردہ لائسنسوں کے تحت استعمال کی گئی ہیں۔',
       'cr': '[حوالہ]',
@@ -156,6 +167,7 @@
       'nav.embroidery': 'ڀرت',
       'nav.leather': 'چمڙو',
       'nav.more': 'ٻيا هنر',
+      'nav.models': 'اسان جا ماڊل',
       'nav.gallery': 'گيلري',
       'nav.team': 'پيش ڪندڙ',
       'nav.credits': 'حوالا',
@@ -234,6 +246,15 @@
       'bells.tag': 'ڌاتوءَ جو هنر',
       'bells.p': 'ڍورن ۽ ٻين جانورن لاءِ هٿ سان ٺهيل ٽامي جون گهنڊيون ڳوٺاڻي سنڌ ۾ وڄنديون رهن ٿيون. وڏيون گهنڊيون بزرگن جي درگاهن تي به ٽنگيل نظر اچن ٿيون.',
 
+      'models.h': 'اسان جا هٿ سان ٺهيل ماڊل',
+      'models.sub': 'ڳوٺ جي زندگي ۽ شهر جي زندگي، هٿ سان ٺاهيل',
+      'village.h': 'ڳوٺ جي زندگي',
+      'village.tag': 'ڳوٺاڻي سنڌ',
+      'village.p': 'ڪکن جي ڇت وارا جهوپڙا، گتي جون ڀتيون، کٽ، بيل گاڏي، هٿ وارو نلڪو، مٽيءَ جا رنگين ٿانو ۽ پاڻيءَ جي ڪناري تي اُٺ ۽ ڳئون. اسان جو ڳوٺ اهو ماحول ڏيکاري ٿو جتي ٿانون ٺاهڻ جهڙا روايتي هنر اڄ به روزمره زندگيءَ جو حصو آهن.',
+      'city.h': 'شهر جي زندگي',
+      'city.tag': 'جديد سنڌ',
+      'city.p': 'اسپتال، بئنڪ، اسڪول، مسجد، بلند رهائشي عمارت، ٽريفڪ سگنل، ۽ گاڏين ۽ هڪ سينگاريل ٽرڪ سان ڀريل رستا. شهر جون دڪانون ڪارخانن جي ٺهيل شين سان ڀريل هونديون آهن، ۽ اها ئي هڪ سبب آهي جو هٿ جا هنر آهستي آهستي ماند ٿي رهيا آهن.',
+
       'gallery.h': 'گيلري',
       'gallery.sub': 'ورڪشاپن ۽ ڪم جا ياديگار لمحا',
       'gallery.archive': 'آرڪائيو مان',
@@ -253,6 +274,7 @@
       'credits.sub': 'هن پراجيڪٽ ۾ استعمال ٿيل تصويرون ۽ معلومات',
       'credits.photos': '<strong>تصويرون:</strong> هن پراجيڪٽ جون تصويرون عام طور تي دستياب آن لائن ذريعن مان ورتيون ويون آهن ۽ غير تجارتي، تعليمي مقصدن لاءِ استعمال ڪيون ويون آهن. ڪريڊٽ اصل فوٽوگرافرن ۽ تخليقڪارن جو آهي.',
       'credits.info': "<strong>معلومات:</strong> عام تاريخ وڪيپيڊيا جي مضمونن <a href='https://en.wikipedia.org/wiki/The_Crafts_of_Sindh' target='_blank' rel='noopener'><bdi>The Crafts of Sindh</bdi></a>، <a href='https://en.wikipedia.org/wiki/Sindhi_embroidery' target='_blank' rel='noopener'><bdi>Sindhi embroidery</bdi></a>، <a href='https://en.wikipedia.org/wiki/Khussa_(footwear)' target='_blank' rel='noopener'><bdi>Khussa (footwear)</bdi></a> ۽ <a href='https://en.wikipedia.org/wiki/Kashi_Kari' target='_blank' rel='noopener'><bdi>Kashi Kari</bdi></a> مان؛ ڊان، <bdi>“The ancient art of Kashigars”</bdi>.",
+      'credits.models': '<strong>ماڊل:</strong> ڳوٺ جي زندگي ۽ شهر جي زندگي جا ماڊل ۽ سندن تصويرون اسان جو پنهنجو اصل، هٿ سان ٺهيل ڪم آهن.',
       'credits.fonts': '<strong>فانٽس:</strong> <bdi>Cormorant Garamond</bdi>، <bdi>Mulish</bdi>، <bdi>Noto Naskh Arabic</bdi> ۽ <bdi>Noto Nastaliq Urdu</bdi>، گوگل فانٽس (اوپن فانٽ لائسنس).',
       'credits.small': 'تصويرون پنهنجن پنهنجن تخليقڪارن جي ملڪيت رهن ٿيون ۽ انهن جي بيان ڪيل لائسنسن تحت استعمال ڪيون ويون آهن.',
       'cr': '[حوالو]',
@@ -274,7 +296,11 @@
       'Bags decorated with mirror work': 'شیشے کے کام سے سجے تھیلے',
       "Mohenjo-daro, one of the world's oldest cities": 'موئن جو دڑو، دنیا کے قدیم ترین شہروں میں سے ایک',
       'Carved sandstone tombs of Sindh': 'سندھ کے تراشے ہوئے ریتیلے پتھر کے مقبرے',
-      'Artifacts from the Indus Valley civilization': 'وادیٔ سندھ کی تہذیب کے آثار'
+      'Artifacts from the Indus Valley civilization': 'وادیٔ سندھ کی تہذیب کے آثار',
+      'A handmade village: huts, a river and a courtyard': 'ہاتھ سے بنا گاؤں: جھونپڑیاں، دریا اور صحن',
+      'A bullock cart, a hand pump and painted clay pots': 'بیل گاڑی، ہینڈ پمپ اور رنگین مٹی کے برتن',
+      'A thatched hut with a camel and a cow': 'اونٹ اور گائے کے ساتھ گھاس پھوس کی جھونپڑی',
+      'A handmade city: hospital, bank, school and busy roads': 'ہاتھ سے بنا شہر: ہسپتال، بینک، اسکول اور مصروف سڑکیں'
     },
     sd: {
       'A potter shaping clay on the wheel': 'ڪنڀر چاڪ تي مٽيءَ کي شڪل ڏيندي',
@@ -285,7 +311,11 @@
       'Bags decorated with mirror work': 'آرسيءَ جي ڪم سان سينگاريل ٿيلها',
       "Mohenjo-daro, one of the world's oldest cities": 'موئن جو دڙو، دنيا جي قديم ترين شهرن مان هڪ',
       'Carved sandstone tombs of Sindh': 'سنڌ جا ڪوريل ريتيلي پٿر جا مقبرا',
-      'Artifacts from the Indus Valley civilization': 'سنڌو ماٿريءَ جي تهذيب جا آثار'
+      'Artifacts from the Indus Valley civilization': 'سنڌو ماٿريءَ جي تهذيب جا آثار',
+      'A handmade village: huts, a river and a courtyard': 'هٿ سان ٺهيل ڳوٺ: جهوپڙا، ندي ۽ اڱڻ',
+      'A bullock cart, a hand pump and painted clay pots': 'بيل گاڏي، هٿ وارو نلڪو ۽ مٽيءَ جا رنگين ٿانو',
+      'A thatched hut with a camel and a cow': 'اُٺ ۽ ڳئون سان گڏ ڪکن جي ڇت وارو جهوپڙو',
+      'A handmade city: hospital, bank, school and busy roads': 'هٿ سان ٺهيل شهر: اسپتال، بئنڪ، اسڪول ۽ مصروف رستا'
     }
   };
 
@@ -326,7 +356,11 @@
       'Handmade Sindhi khussa shoes': 'ہاتھ سے بنے سندھی کھسے',
       'Ruins of Mohenjo-daro': 'موئن جو دڑو کے کھنڈرات',
       'Carved sandstone tombs': 'تراشے ہوئے ریتیلے پتھر کے مقبرے',
-      'Artifacts from the Indus Valley civilization': 'وادیٔ سندھ کی تہذیب کے آثار'
+      'Artifacts from the Indus Valley civilization': 'وادیٔ سندھ کی تہذیب کے آثار',
+      'Handmade model of a Sindh village with thatched huts and a river': 'گھاس پھوس کی جھونپڑیوں اور دریا والے سندھی گاؤں کا ہاتھ سے بنا ماڈل',
+      'Village model with a bullock cart, hand pump and painted pots': 'بیل گاڑی، ہینڈ پمپ اور رنگین برتنوں والا گاؤں کا ماڈل',
+      'Village model with a thatched hut, a camel and a cow': 'گھاس پھوس کی جھونپڑی، اونٹ اور گائے والا گاؤں کا ماڈل',
+      'Handmade city model with a hospital, apartment block, school and roads': 'ہسپتال، رہائشی عمارت، اسکول اور سڑکوں والے شہر کا ہاتھ سے بنا ماڈل'
     },
     sd: {
       'Sindh STREAM Journey logo': 'سنڌ اسٽريم جرني جو لوگو',
@@ -363,7 +397,11 @@
       'Handmade Sindhi khussa shoes': 'هٿ جا ٺهيل سنڌي کسا',
       'Ruins of Mohenjo-daro': 'موئن جو دڙو جا آثار',
       'Carved sandstone tombs': 'ڪوريل ريتيلي پٿر جا مقبرا',
-      'Artifacts from the Indus Valley civilization': 'سنڌو ماٿريءَ جي تهذيب جا آثار'
+      'Artifacts from the Indus Valley civilization': 'سنڌو ماٿريءَ جي تهذيب جا آثار',
+      'Handmade model of a Sindh village with thatched huts and a river': 'ڪکن جي ڇت وارن جهوپڙن ۽ نديءَ وارو سنڌي ڳوٺ جو هٿ سان ٺهيل ماڊل',
+      'Village model with a bullock cart, hand pump and painted pots': 'بيل گاڏي، هٿ وارو نلڪو ۽ رنگين ٿانون وارو ڳوٺ جو ماڊل',
+      'Village model with a thatched hut, a camel and a cow': 'ڪکن جي ڇت وارو جهوپڙو، اُٺ ۽ ڳئون وارو ڳوٺ جو ماڊل',
+      'Handmade city model with a hospital, apartment block, school and roads': 'اسپتال، رهائشي عمارت، اسڪول ۽ رستن وارو شهر جو هٿ سان ٺهيل ماڊل'
     }
   };
 
